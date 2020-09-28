@@ -1,0 +1,4 @@
+#!/bin/bash
+touch info.log
+
+cat /var/log/anaconda/syslog | grep "<info>" > info.log

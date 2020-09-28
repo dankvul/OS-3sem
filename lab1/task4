@@ -1,0 +1,16 @@
+#!/bin/bash
+
+home=$HOME
+pwd=$PWD
+
+# substr=echo pwd | grep home
+# echo $substr
+
+if [[ $home == ${pwd:0:${#home}} ]]
+then
+echo $home
+exit 0
+else
+echo "Error while doing code"
+exit 1
+fi

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+read cmd
+case $cmd in
+"1" )
+nano
+ ;;
+"2" )
+vi
+ ;;
+"3" )
+links
+ ;;
+"4" )
+exit
+ ;;
+esac
+
+
