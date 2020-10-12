@@ -1,0 +1,266 @@
+	(Warning: ) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     4.877] (Warning: ) The directory "/usr/share/fonts/Type1" does not exist.
+[     4.877] (Warning: ) The directory "/usr/share/fonts/100dpi" does not exist.
+[     4.877] (Warning: ) The directory "/usr/share/fonts/75dpi" does not exist.
+[     4.893] (Warning: ) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[     4.926] (Warning: ) Warning, couldn't open module fbdev
+[     4.926] (Warning: ) Warning, couldn't open module vesa
+[     4.944] (Warning: ) Falling back to old probe method for modesetting
+	(++) from command line, (!!) notice, (Information: ) informational,
+[     4.878] (Information: ) The server relies on udev to provide the list of input devices.
+[     4.878] (Information: ) Module ABI versions:
+[     4.878] (Information: ) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[     4.879] (Information: ) xfree86: Adding drm device (/dev/dri/card0)
+[     4.893] (Information: ) LoadModule: "glx"
+[     4.894] (Information: ) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     4.909] (Information: ) Module glx: vendor="X.Org Foundation"
+[     4.909] (Information: ) Applying OutputClass "AMDgpu" to /dev/dri/card0
+[     4.909] (Information: ) LoadModule: "amdgpu"
+[     4.911] (Information: ) Loading /usr/lib/xorg/modules/drivers/amdgpu_drv.so
+[     4.917] (Information: ) Module amdgpu: vendor="X.Org Foundation"
+[     4.917] (Information: ) LoadModule: "ati"
+[     4.917] (Information: ) Loading /usr/lib/xorg/modules/drivers/ati_drv.so
+[     4.917] (Information: ) Module ati: vendor="X.Org Foundation"
+[     4.923] (Information: ) LoadModule: "modesetting"
+[     4.923] (Information: ) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     4.925] (Information: ) Module modesetting: vendor="X.Org Foundation"
+[     4.925] (Information: ) LoadModule: "fbdev"
+[     4.926] (Information: ) LoadModule: "vesa"
+[     4.926] (Information: ) AMDGPU: Driver for AMD Radeon:
+[     4.926] (Information: ) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     4.944] (Information: ) AMDGPU(0): [KMS] Kernel modesetting enabled.
+[     4.944] (Information: ) AMDGPU(0): Creating default Display subsection in Screen section
+[     4.945] (Information: ) AMDGPU(0): Pixel depth = 24 bits stored in 4 bytes (32 bpp pixmaps)
+[     4.945] (Information: ) AMDGPU(0): Using 8 bits per RGB (8 bit DAC)
+[     4.945] (Information: ) Loading sub module "fb"
+[     4.945] (Information: ) LoadModule: "fb"
+[     4.945] (Information: ) Loading /usr/lib/xorg/modules/libfb.so
+[     4.946] (Information: ) Module fb: vendor="X.Org Foundation"
+[     4.946] (Information: ) Loading sub module "dri2"
+[     4.946] (Information: ) LoadModule: "dri2"
+[     4.946] (Information: ) Module "dri2" already built-in
+[     5.177] (Information: ) Loading sub module "glamoregl"
+[     5.177] (Information: ) LoadModule: "glamoregl"
+[     5.177] (Information: ) Loading /usr/lib/xorg/modules/libglamoregl.so
+[     5.185] (Information: ) Module glamoregl: vendor="X.Org Foundation"
+[     5.210] (Information: ) AMDGPU(0): glamor X acceleration enabled on AMD RAVEN (DRM 3.36.0, 5.6.19-2-MANJARO, LLVM 10.0.0)
+[     5.210] (Information: ) AMDGPU(0): glamor detected, initialising EGL layer.
+[     5.210] (Information: ) AMDGPU(0): KMS Pageflipping: enabled
+[     5.210] (Information: ) AMDGPU(0): Output eDP has no monitor section
+[     5.210] (Information: ) AMDGPU(0): Output HDMI-A-0 has no monitor section
+[     5.210] (Information: ) AMDGPU(0): Output DisplayPort-0 has no monitor section
+[     5.210] (Information: ) AMDGPU(0): Output DisplayPort-1 has no monitor section
+[     5.223] (Information: ) AMDGPU(0): EDID for output eDP
+[     5.223] (Information: ) AMDGPU(0): Manufacturer: BOE  Model: 83c  Serial#: 0
+[     5.223] (Information: ) AMDGPU(0): Year: 2018  Week: 41
+[     5.223] (Information: ) AMDGPU(0): EDID Version: 1.4
+[     5.223] (Information: ) AMDGPU(0): Digital Display Input
+[     5.223] (Information: ) AMDGPU(0): 8 bits per channel
+[     5.223] (Information: ) AMDGPU(0): Digital interface is DisplayPort
+[     5.223] (Information: ) AMDGPU(0): Max Image Size [cm]: horiz.: 31  vert.: 17
+[     5.223] (Information: ) AMDGPU(0): Gamma: 2.20
+[     5.223] (Information: ) AMDGPU(0): No DPMS capabilities specified
+[     5.223] (Information: ) AMDGPU(0): Supported color encodings: RGB 4:4:4 
+[     5.223] (Information: ) AMDGPU(0): First detailed timing is preferred mode
+[     5.223] (Information: ) AMDGPU(0): Preferred mode is native pixel format and refresh rate
+[     5.223] (Information: ) AMDGPU(0): redX: 0.585 redY: 0.366   greenX: 0.350 greenY: 0.581
+[     5.223] (Information: ) AMDGPU(0): blueX: 0.162 blueY: 0.138   whiteX: 0.312 whiteY: 0.328
+[     5.223] (Information: ) AMDGPU(0): Manufacturer's mask: 0
+[     5.223] (Information: ) AMDGPU(0): Supported detailed timing:
+[     5.223] (Information: ) AMDGPU(0): clock: 141.4 MHz   Image Size:  309 x 173 mm
+[     5.223] (Information: ) AMDGPU(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2142 h_border: 0
+[     5.223] (Information: ) AMDGPU(0): v_active: 1080  v_sync: 1083  v_sync_end 1089 v_blanking: 1100 v_border: 0
+[     5.223] (Information: ) AMDGPU(0): Unknown vendor-specific block 0
+[     5.223] (Information: ) AMDGPU(0):  BOE CQ
+[     5.223] (Information: ) AMDGPU(0):  TV140FHM-NH0
+[     5.223] (Information: ) AMDGPU(0): EDID (in hex):
+[     5.223] (Information: ) AMDGPU(0): 	00ffffffffffff0009e53c0800000000
+[     5.223] (Information: ) AMDGPU(0): 	291c0104a51f117802fb90955d599429
+[     5.223] (Information: ) AMDGPU(0): 	23505400000001010101010101010101
+[     5.223] (Information: ) AMDGPU(0): 	0101010101013c3780de703814403020
+[     5.223] (Information: ) AMDGPU(0): 	360035ad1000001a0000000000000000
+[     5.223] (Information: ) AMDGPU(0): 	0000000000000000001a000000fe0042
+[     5.223] (Information: ) AMDGPU(0): 	4f452043510a202020202020000000fe
+[     5.223] (Information: ) AMDGPU(0): 	00545631343046484d2d4e48300a00f1
+[     5.223] (Information: ) AMDGPU(0): Printing probed modes for output eDP
+[     5.223] (Information: ) AMDGPU(0): Modeline "1920x1080"x60.0  141.40  1920 1968 2000 2142  1080 1083 1089 1100 +hsync -vsync (66.0 kHz eP)
+[     5.223] (Information: ) AMDGPU(0): Modeline "1680x1050"x60.0  141.40  1680 1968 2000 2142  1050 1083 1089 1100 +hsync -vsync (66.0 kHz e)
+[     5.223] (Information: ) AMDGPU(0): Modeline "1280x1024"x60.0  141.40  1280 1968 2000 2142  1024 1083 1089 1100 +hsync -vsync (66.0 kHz e)
+[     5.223] (Information: ) AMDGPU(0): Modeline "1440x900"x60.0  141.40  1440 1968 2000 2142  900 1083 1089 1100 +hsync -vsync (66.0 kHz e)
+[     5.223] (Information: ) AMDGPU(0): Modeline "1280x800"x60.0  141.40  1280 1968 2000 2142  800 1083 1089 1100 +hsync -vsync (66.0 kHz e)
+[     5.223] (Information: ) AMDGPU(0): Modeline "1280x720"x60.0  141.40  1280 1968 2000 2142  720 1083 1089 1100 +hsync -vsync (66.0 kHz e)
+[     5.223] (Information: ) AMDGPU(0): Modeline "1024x768"x60.0  141.40  1024 1968 2000 2142  768 1083 1089 1100 +hsync -vsync (66.0 kHz e)
+[     5.223] (Information: ) AMDGPU(0): Modeline "800x600"x60.0  141.40  800 1968 2000 2142  600 1083 1089 1100 +hsync -vsync (66.0 kHz e)
+[     5.223] (Information: ) AMDGPU(0): Modeline "640x480"x60.0  141.40  640 1968 2000 2142  480 1083 1089 1100 +hsync -vsync (66.0 kHz e)
+[     5.223] (Information: ) AMDGPU(0): EDID for output HDMI-A-0
+[     5.223] (Information: ) AMDGPU(0): EDID for output DisplayPort-0
+[     5.223] (Information: ) AMDGPU(0): EDID for output DisplayPort-1
+[     5.223] (Information: ) AMDGPU(0): Output eDP connected
+[     5.223] (Information: ) AMDGPU(0): Output HDMI-A-0 disconnected
+[     5.223] (Information: ) AMDGPU(0): Output DisplayPort-0 disconnected
+[     5.223] (Information: ) AMDGPU(0): Output DisplayPort-1 disconnected
+[     5.223] (Information: ) AMDGPU(0): Using exact sizes for initial modes
+[     5.223] (Information: ) AMDGPU(0): Output eDP using initial mode 1920x1080 +0+0
+[     5.223] (Information: ) AMDGPU(0): mem size init: gart size :bf7d6000 vram size: s:3e43e000 visible:3e43e000
+[     5.223] (Information: ) Loading sub module "ramdac"
+[     5.223] (Information: ) LoadModule: "ramdac"
+[     5.223] (Information: ) Module "ramdac" already built-in
+[     5.223] (Information: ) UnloadModule: "modesetting"
+[     5.223] (Information: ) Unloading modesetting
+[     5.224] (Information: ) AMDGPU(0): [DRI2] Setup complete
+[     5.224] (Information: ) AMDGPU(0): [DRI2]   DRI driver: radeonsi
+[     5.224] (Information: ) AMDGPU(0): [DRI2]   VDPAU driver: radeonsi
+[     5.346] (Information: ) AMDGPU(0): Front buffer pitch: 7680 bytes
+[     5.348] (Information: ) AMDGPU(0): SYNC extension fences enabled
+[     5.348] (Information: ) AMDGPU(0): Present extension enabled
+[     5.348] (Information: ) AMDGPU(0): Direct rendering enabled
+[     5.374] (Information: ) AMDGPU(0): Use GLAMOR acceleration.
+[     5.374] (Information: ) AMDGPU(0): Acceleration enabled
+[     5.374] (Information: ) AMDGPU(0): Set up textured video (glamor)
+[     5.391] (Information: ) Initializing extension Generic Event Extension
+[     5.391] (Information: ) Initializing extension SHAPE
+[     5.391] (Information: ) Initializing extension MIT-SHM
+[     5.391] (Information: ) Initializing extension XInputExtension
+[     5.392] (Information: ) Initializing extension XTEST
+[     5.392] (Information: ) Initializing extension BIG-REQUESTS
+[     5.392] (Information: ) Initializing extension SYNC
+[     5.392] (Information: ) Initializing extension XKEYBOARD
+[     5.393] (Information: ) Initializing extension XC-MISC
+[     5.393] (Information: ) Initializing extension SECURITY
+[     5.393] (Information: ) Initializing extension XFIXES
+[     5.394] (Information: ) Initializing extension RENDER
+[     5.394] (Information: ) Initializing extension RANDR
+[     5.394] (Information: ) Initializing extension COMPOSITE
+[     5.394] (Information: ) Initializing extension DAMAGE
+[     5.394] (Information: ) Initializing extension MIT-SCREEN-SAVER
+[     5.395] (Information: ) Initializing extension DOUBLE-BUFFER
+[     5.395] (Information: ) Initializing extension RECORD
+[     5.395] (Information: ) Initializing extension DPMS
+[     5.395] (Information: ) Initializing extension Present
+[     5.395] (Information: ) Initializing extension DRI3
+[     5.395] (Information: ) Initializing extension X-Resource
+[     5.395] (Information: ) Initializing extension XVideo
+[     5.395] (Information: ) Initializing extension XVideo-MotionCompensation
+[     5.395] (Information: ) Initializing extension GLX
+[     5.401] (Information: ) AIGLX: Loaded and initialized radeonsi
+[     5.401] (Information: ) GLX: Initialized DRI2 GL provider for screen 0
+[     5.402] (Information: ) Initializing extension XFree86-VidModeExtension
+[     5.402] (Information: ) Initializing extension XFree86-DGA
+[     5.402] (Information: ) Initializing extension XFree86-DRI
+[     5.402] (Information: ) Initializing extension DRI2
+[     5.410] (Information: ) AMDGPU(0): Setting screen physical size to 508 x 285
+[     5.513] (Information: ) config/udev: Adding input device Power Button (/dev/input/event2)
+[     5.513] (Information: ) LoadModule: "libinput"
+[     5.513] (Information: ) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[     5.518] (Information: ) Module libinput: vendor="X.Org Foundation"
+[     5.518] (Information: ) Using input driver 'libinput' for 'Power Button'
+[     5.524] (Information: ) event2  - Power Button: is tagged by udev as: Keyboard
+[     5.524] (Information: ) event2  - Power Button: device is a keyboard
+[     5.525] (Information: ) event2  - Power Button: device removed
+[     5.551] (Information: ) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[     5.553] (Information: ) event2  - Power Button: is tagged by udev as: Keyboard
+[     5.553] (Information: ) event2  - Power Button: device is a keyboard
+[     5.554] (Information: ) config/udev: Adding input device Video Bus (/dev/input/event3)
+[     5.554] (Information: ) Using input driver 'libinput' for 'Video Bus'
+[     5.556] (Information: ) event3  - Video Bus: is tagged by udev as: Keyboard
+[     5.556] (Information: ) event3  - Video Bus: device is a keyboard
+[     5.557] (Information: ) event3  - Video Bus: device removed
+[     5.605] (Information: ) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[     5.607] (Information: ) event3  - Video Bus: is tagged by udev as: Keyboard
+[     5.607] (Information: ) event3  - Video Bus: device is a keyboard
+[     5.608] (Information: ) config/udev: Adding input device Video Bus (/dev/input/event4)
+[     5.608] (Information: ) Using input driver 'libinput' for 'Video Bus'
+[     5.610] (Information: ) event4  - Video Bus: is tagged by udev as: Keyboard
+[     5.610] (Information: ) event4  - Video Bus: device is a keyboard
+[     5.610] (Information: ) event4  - Video Bus: device removed
+[     5.684] (Information: ) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[     5.687] (Information: ) event4  - Video Bus: is tagged by udev as: Keyboard
+[     5.687] (Information: ) event4  - Video Bus: device is a keyboard
+[     5.688] (Information: ) config/udev: Adding input device Power Button (/dev/input/event0)
+[     5.688] (Information: ) Using input driver 'libinput' for 'Power Button'
+[     5.689] (Information: ) event0  - Power Button: is tagged by udev as: Keyboard
+[     5.689] (Information: ) event0  - Power Button: device is a keyboard
+[     5.689] (Information: ) event0  - Power Button: device removed
+[     5.724] (Information: ) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 9)
+[     5.726] (Information: ) event0  - Power Button: is tagged by udev as: Keyboard
+[     5.726] (Information: ) event0  - Power Button: device is a keyboard
+[     5.727] (Information: ) config/udev: Adding input device Lid Switch (/dev/input/event1)
+[     5.727] (Information: ) No input driver specified, ignoring this device.
+[     5.727] (Information: ) This device may have been added with another device file.
+[     5.729] (Information: ) config/udev: Adding input device HD-Audio Generic HDMI/DP,pcm=3 (/dev/input/event12)
+[     5.729] (Information: ) No input driver specified, ignoring this device.
+[     5.729] (Information: ) This device may have been added with another device file.
+[     5.729] (Information: ) config/udev: Adding input device HD-Audio Generic HDMI/DP,pcm=7 (/dev/input/event13)
+[     5.729] (Information: ) No input driver specified, ignoring this device.
+[     5.729] (Information: ) This device may have been added with another device file.
+[     5.731] (Information: ) config/udev: Adding input device hm1091_techfront: hm1091_techfr (/dev/input/event11)
+[     5.731] (Information: ) Using input driver 'libinput' for 'hm1091_techfront: hm1091_techfr'
+[     5.733] (Information: ) event11 - hm1091_techfront: hm1091_techfr: is tagged by udev as: Keyboard
+[     5.733] (Information: ) event11 - hm1091_techfront: hm1091_techfr: device is a keyboard
+[     5.733] (Information: ) event11 - hm1091_techfront: hm1091_techfr: device removed
+[     5.778] (Information: ) XINPUT: Adding extended input device "hm1091_techfront: hm1091_techfr" (type: KEYBOARD, id 10)
+[     5.781] (Information: ) event11 - hm1091_techfront: hm1091_techfr: is tagged by udev as: Keyboard
+[     5.781] (Information: ) event11 - hm1091_techfront: hm1091_techfr: device is a keyboard
+[     5.782] (Information: ) config/udev: Adding input device HDA Digital PCBeep (/dev/input/event14)
+[     5.782] (Information: ) No input driver specified, ignoring this device.
+[     5.782] (Information: ) This device may have been added with another device file.
+[     5.782] (Information: ) config/udev: Adding input device HD-Audio Generic Mic (/dev/input/event15)
+[     5.783] (Information: ) No input driver specified, ignoring this device.
+[     5.783] (Information: ) This device may have been added with another device file.
+[     5.783] (Information: ) config/udev: Adding input device HD-Audio Generic Headphone (/dev/input/event16)
+[     5.783] (Information: ) No input driver specified, ignoring this device.
+[     5.783] (Information: ) This device may have been added with another device file.
+[     5.784] (Information: ) config/udev: Adding input device ELAN2203:00 04F3:309A Mouse (/dev/input/event8)
+[     5.784] (Information: ) Using input driver 'libinput' for 'ELAN2203:00 04F3:309A Mouse'
+[     5.786] (Information: ) event8  - ELAN2203:00 04F3:309A Mouse: is tagged by udev as: Mouse Pointingstick
+[     5.787] (Information: ) event8  - ELAN2203:00 04F3:309A Mouse: device is a pointer
+[     5.787] (Information: ) event8  - ELAN2203:00 04F3:309A Mouse: device removed
+[     5.844] (Information: ) XINPUT: Adding extended input device "ELAN2203:00 04F3:309A Mouse" (type: MOUSE, id 11)
+[     5.847] (Information: ) event8  - ELAN2203:00 04F3:309A Mouse: is tagged by udev as: Mouse Pointingstick
+[     5.847] (Information: ) event8  - ELAN2203:00 04F3:309A Mouse: device is a pointer
+[     5.849] (Information: ) config/udev: Adding input device ELAN2203:00 04F3:309A Mouse (/dev/input/mouse0)
+[     5.849] (Information: ) No input driver specified, ignoring this device.
+[     5.849] (Information: ) This device may have been added with another device file.
+[     5.850] (Information: ) config/udev: Adding input device ELAN2203:00 04F3:309A Touchpad (/dev/input/event9)
+[     5.850] (Information: ) Using input driver 'libinput' for 'ELAN2203:00 04F3:309A Touchpad'
+[     5.852] (Information: ) event9  - ELAN2203:00 04F3:309A Touchpad: is tagged by udev as: Touchpad
+[     5.854] (Information: ) event9  - ELAN2203:00 04F3:309A Touchpad: device is a touchpad
+[     5.854] (Information: ) event9  - ELAN2203:00 04F3:309A Touchpad: device removed
+[     5.912] (Information: ) XINPUT: Adding extended input device "ELAN2203:00 04F3:309A Touchpad" (type: TOUCHPAD, id 12)
+[     5.915] (Information: ) event9  - ELAN2203:00 04F3:309A Touchpad: is tagged by udev as: Touchpad
+[     5.917] (Information: ) event9  - ELAN2203:00 04F3:309A Touchpad: device is a touchpad
+[     5.919] (Information: ) config/udev: Adding input device ELAN2203:00 04F3:309A Touchpad (/dev/input/mouse1)
+[     5.919] (Information: ) Using input driver 'libinput' for 'ELAN2203:00 04F3:309A Touchpad'
+[     5.978] (Information: ) mouse1  - failed to create input device '/dev/input/mouse1'.
+[     5.978] (Information: ) UnloadModule: "libinput"
+[     5.979] (Information: ) config/udev: Adding input device Huawei WMI hotkeys (/dev/input/event7)
+[     5.979] (Information: ) Using input driver 'libinput' for 'Huawei WMI hotkeys'
+[     5.980] (Information: ) event7  - Huawei WMI hotkeys: is tagged by udev as: Keyboard
+[     5.980] (Information: ) event7  - Huawei WMI hotkeys: device is a keyboard
+[     5.980] (Information: ) event7  - Huawei WMI hotkeys: device removed
+[     6.031] (Information: ) XINPUT: Adding extended input device "Huawei WMI hotkeys" (type: KEYBOARD, id 13)
+[     6.033] (Information: ) event7  - Huawei WMI hotkeys: is tagged by udev as: Keyboard
+[     6.033] (Information: ) event7  - Huawei WMI hotkeys: device is a keyboard
+[     6.034] (Information: ) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event5)
+[     6.034] (Information: ) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[     6.036] (Information: ) event5  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[     6.036] (Information: ) event5  - AT Translated Set 2 keyboard: device is a keyboard
+[     6.037] (Information: ) event5  - AT Translated Set 2 keyboard: device removed
+[     6.071] (Information: ) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 14)
+[     6.073] (Information: ) event5  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[     6.074] (Information: ) event5  - AT Translated Set 2 keyboard: device is a keyboard
+[     6.076] (Information: ) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event10)
+[     6.076] (Information: ) Using input driver 'libinput' for 'ETPS/2 Elantech Touchpad'
+[     6.078] (Information: ) event10 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[     6.079] (Information: ) event10 - ETPS/2 Elantech Touchpad: device is a touchpad
+[     6.079] (Information: ) event10 - ETPS/2 Elantech Touchpad: device removed
+[     6.125] (Information: ) XINPUT: Adding extended input device "ETPS/2 Elantech Touchpad" (type: TOUCHPAD, id 15)
+[     6.128] (Information: ) event10 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[     6.130] (Information: ) event10 - ETPS/2 Elantech Touchpad: device is a touchpad
+[     6.131] (Information: ) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse2)
+[     6.131] (Information: ) Using input driver 'libinput' for 'ETPS/2 Elantech Touchpad'
+[     6.191] (Information: ) mouse2  - failed to create input device '/dev/input/mouse2'.
+[     6.191] (Information: ) UnloadModule: "libinput"
+[     6.192] (Information: ) config/udev: Adding input device PC Speaker (/dev/input/event6)
+[     6.192] (Information: ) No input driver specified, ignoring this device.
+[     6.192] (Information: ) This device may have been added with another device file.
